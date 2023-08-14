@@ -1,1 +1,299 @@
+getgenv()farmer = true
+getgenv()spin = true
+getgenv()egg = true
+getgenv()claim = true
+getgenv()win = true
+getgenv()equip = true
+getgenv()fight = true
+getgenv()rebirth = true
+getgenv()strong = true
+
+
+
+local library =  loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+local w = library:CreateWindow("DownHub Arm !Wrestle Simulator!") -- Creates the window
+
+local b = w:CreateFolder("AutoFarm") -- Creates the folder(U will put here your buttons,etc)
+
+
+
+
+function farmer()
+    spawn(function()
+      while getgenv().farmer == true do
+            game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("ToolService"):WaitForChild("RE"):WaitForChild("onClick"):FireServer()
+            wait()
+         end
+      end)
+  end
+
+
+function egg()
+    spawn(function()
+      while getgenv().egg == true do
+        local args = {
+            [1] = "Limited",
+            [2] = {},
+            [4] = false
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("EggService"):WaitForChild("RF"):WaitForChild("purchaseEgg"):InvokeServer(unpack(args))
+        
+                    wait()
+            wait()
+         end
+      end)
+  end
+
+
+
+function spin()
+    spawn(function()
+      while getgenv().spin == true do
+            game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("SpinService"):WaitForChild("RE"):WaitForChild("onSpinRequest"):FireServer()
+            wait()
+         end
+      end)
+  end
+
+---
+
+  function claim1()
+    spawn(function()
+      while getgenv().spin == true do
+        local args = {
+            [1] = "1"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+        local args = {
+            [1] = "10"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+        local args = {
+            [1] = "9"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+        local args = {
+            [1] = "8"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+        local args = {
+            [1] = "7"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+        local args = {
+            [1] = "6"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+        local args = {
+            [1] = "5"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+        local args = {
+            [1] = "4"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+        local args = {
+            [1] = "3"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+        local args = {
+            [1] = "2"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("TimedRewardService"):WaitForChild("RE"):WaitForChild("onClaim"):FireServer(unpack(args))
+       
+
+
+            wait()
+         end
+      end)
+  end
+  
+ 
+
+  function win()
+    spawn(function()
+      while getgenv().win == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("ArmWrestleService"):WaitForChild("RE"):WaitForChild("onClickRequest"):FireServer()
+            wait()
+         end
+      end)
+  end
+
+
+
+  function equip()
+    spawn(function()
+      while getgenv().equip == true do
+        local args = {
+            [1] = "1",
+            [2] = "Dumbells",
+            [3] = "250Kg"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("ToolService"):WaitForChild("RE"):WaitForChild("onGuiEquipRequest"):FireServer(unpack(args))
+        
+            wait()
+         end
+      end)
+  end
+
+
+  function fight()
+    spawn(function()
+      while getgenv().equip == true do
+        local args = {
+            [1] = "Champion",
+            [2] = workspace:WaitForChild("Zones"):WaitForChild("1"):WaitForChild("Interactables"):WaitForChild("ArmWrestling"):WaitForChild("NPC"):WaitForChild("Champion"),
+            [3] = "1"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("ArmWrestleService"):WaitForChild("RE"):WaitForChild("onEnterNPCTable"):FireServer(unpack(args))
+        
+            wait()
+         end
+      end)
+  end
+
+
+  function rebirth()
+    spawn(function()
+      while getgenv().equip == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("RebirthService"):WaitForChild("RE"):WaitForChild("onRebirthRequest"):FireServer()
+
+            wait()
+         end
+      end)
+  end
+
+
+  function strong()
+    spawn(function()
+      while getgenv().strong == true do
+        local args = {
+            [1] = "2",
+            [2] = "Tier1"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.4.7"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("PunchBagService"):WaitForChild("RE"):WaitForChild("onGiveStats"):FireServer(unpack(args))
+        
+         end
+      end)
+  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b:Label("Farm",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+b:Button("equip best",function()
+    equip();
+end)
+
+b:Toggle("Auto Biceps",function(bool)
+    getgenv().farmer = bool
+    print('farmer is: ', bool);
+    if bool then
+       equip();
+       farmer();
+       end
+end)
+
+
+b:Toggle("Auto Limited Egg",function(bool)
+    getgenv().egg = bool
+    print('egg is: ', bool);
+    if bool then
+       egg();
+       end
+end)
+
+b:Toggle("Auto spin",function(bool)
+    getgenv().spin = bool
+    print('spin is: ', bool);
+    if bool then
+       spin();
+       end
+end)
+
+b:Toggle("Auto claim",function(bool)
+    getgenv().claim = bool
+    print('claim is: ', bool);
+    if bool then
+       claim1();
+       end
+end)
+
+b:Toggle("Auto Win Fights",function(bool)
+    getgenv().win = bool
+    print('win is: ', bool);
+    if bool then
+       win();
+       end
+end)
+
+b:Toggle("Auto Fights",function(bool)
+    getgenv().fight = bool
+    print('fight is: ', bool);
+    if bool then
+       fight();
+       end
+end)
+
+b:Toggle("Auto Rebirth",function(bool)
+    getgenv().rebirth = bool
+    print('rebirth is: ', bool);
+    if bool then
+       rebirth();
+       end
+end)
+
+
+b:Toggle("Auto strenght (buggy)",function(bool)
+    getgenv().strong = bool
+    print('strong is: ', bool);
+    if bool then
+       strong();
+       end
+end)
+
+
+
+
+
+
+
+
+b:DestroyGui()
 
